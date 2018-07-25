@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*首页样式*/
+.list-low li a{
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: normal;
+}
+.huizhang{
+    width:302px;
+    float: right;
+}
+.huizhang dd{
+    padding-top: 14px;
+    font-size: 15px;
+    line-height: 28px;;
+}
+.huizhang dd a{color: #BEBEBE}
+.index-tabs .nav-pills>li>a{
+    background: #E6E6E6;
+    border-radius:0;
+    color: #595757;
+    margin-right: 6px;
+}
+.index-tabs .nav-pills>li.active>a,.index-tabs .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background: #A78275;
+    color: #ffffff;
+}
+/*列表页*/
+.aside-nav a{display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background:#E6E6E6 ;
+    color:#595757 ;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.aside-nav a.active{background: #A78275;color: #ffffff;}
+.aside-nav a:hover{text-decoration: none;background: #A78275;color: #ffffff;}
+.article{
+    background: #DDCFC9;
+    color: #595757;
+    padding: 24px;
+}
+.article h1{text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 60px;
+    padding-bottom: 10px;}
+.article section{
+    font-size: 16px;
+    line-height: 32px;}
+.article p{text-indent: 2em;
+    margin-bottom: 16px;}
+/*联系我们*/
+.list-lianxitus{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 160px;
+}
+/*教职人员*/
+#input-name{width: 200px;}
+.dl-custom-aside{
+    padding: 0;}
+.dl-custom-aside dt{border: none;
+    padding: 0;}
+.dl-custom-aside .title{top:0;}
+.dl-custom-aside>dt{
+    margin-bottom: 10px;}
+.list-low-aside a{color: #595757;}
+/*道教杂志*/
+.article .col-md-4{
+    padding-left: 8px;
+    padding-right: 8px;}
+/*道教文化*/
+.article2 .img-wrap,.article2 .list-wrap{
+    padding-left: 0;
+    padding-right: 0;}
+.article2 .des{
+    font-size: 12px;
+    line-height: 20px;
+}
+.article2 .list-wrap{
+    padding-bottom: 30px;}
+.article2 .des a{color:#595757 }
+.article2 .list-low a{
+    font-size: 14px;
+    line-height: 28px;
+}
+.thumbnail2{
+    background: none;
+    border:none;
+}
+.thumbnail2 .caption{
+    font-size: 12px;}
+.article2 .col-md-3{
+    padding-left: 8px;
+    padding-right: 8px;}
+/**/
+@media (max-width: 768px){
+    #input-name{width: 100%;}
+}
