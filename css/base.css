@@ -97,6 +97,11 @@ p,body,ul,li,ol,dl,dt,dd{
 .clearfix{
     zoom:1;
 }
+.list-unstyled li{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
 /*themes css*/
 .page-navigation{text-align:center;
     padding-top: 20px;}
@@ -133,15 +138,16 @@ p,body,ul,li,ol,dl,dt,dd{
 }
 .navbar-custom  .icon-bar{background: #ffffff;}
 .navbar-custom .navbar-nav>li>a{
-    padding: 8px 28px;}
+    padding: 8px 0;}
 .navbar-custom .navbar-nav>li>a:hover,.navbar-custom .navbar-nav>li.active>a{
     background: none;
     /*text-decoration: underline;*/
     color: #FFF100;
 }
-#navbar a{
+#navbar li{
     position: relative;}
-#navbar span{color: #ffffff;position: absolute;top:6px;}
+#navbar span{color: #ffffff;position: absolute;top:6px;
+    left: 0;}
 @media (max-width: 768px){
     #navbar span{display: none;}
 }
@@ -172,14 +178,25 @@ p,body,ul,li,ol,dl,dt,dd{
 }
 /* 手机适配 */
 
-@media (min-width: 1060px){
+/*@media (min-width: 1060px){
     .container {
         width: 1060px;
     }
+
+}*/
+@media (min-width: 768px){
+    .navbar-nav{width: 100%;}
+    .navbar-nav>li{width: 11%;text-align: center;}
+   /* .container {
+        width: 1060px;
+    }*/
 }
 @media (max-width: 768px){
     #navbar span{display: none;}
     #footer .row{background:none; }
     .content{
         margin-top: 0;}
+    .navbar-custom .navbar-nav>li>a{
+        padding: 8px 15px;}
+
 }

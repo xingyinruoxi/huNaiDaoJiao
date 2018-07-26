@@ -14,17 +14,58 @@
     font-size: 15px;
     line-height: 28px;;
 }
+.dl-custom dt .link{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    padding: 0 30px;
+}
 .huizhang dd a{color: #BEBEBE}
+.index-tabs .nav-pills>li{width: 16.6%;
+    text-align: center;
+    margin-left: 0;}
 .index-tabs .nav-pills>li>a{
     background: #E6E6E6;
     border-radius:0;
     color: #595757;
     margin-right: 6px;
+    padding: 8px 15px;
 }
 .index-tabs .nav-pills>li.active>a,.index-tabs .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
     background: #A78275;
     color: #ffffff;
 }
+.index-tabs h5{
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 6px;
+}
+.index-tabs .des{
+    font-size: 14px;
+    line-height: 21px;
+color: #CECECE;}
+.index-tabs .view-detail{
+    border: 2px solid #ffffff;
+    display: inline-block;
+    width: 96px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 20px;
+    padding: 2px 0;
+    font-size: 12px;
+}
+.list-tabs-links li{
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px dashed #5D5D5D;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.list-tabs-links time{
+    float: right;}
+.index-tabs .tab-content{
+    height: 346px;
+    padding-top: 30px;}
 /*列表页*/
 .aside-nav a{display: block;
     width: 100%;
@@ -102,7 +143,53 @@
 .article2 .col-md-3{
     padding-left: 8px;
     padding-right: 8px;}
+/*内容页*/
+.article-detail header{
+    border-bottom:1px dotted #595757 ;
+    margin-bottom: 15px;
+}
+.article-detail header h1{
+    padding: 0;margin: 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-weight: normal;
+color: #000000;
+    font-size: 24px;
+    line-height: 36px;}
+.article-detail .source{
+    text-align: center;
+    font-size: 14px;
+    color: #595757;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.article-detail section{
+    font-size: 14px;
+    line-height: 30px;
+}
+.article-detail footer h5{
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    border-bottom:1px dotted #595757 ;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    text-indent: 30px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.article-detail footer ul{
+    padding-left: 30px;}
+.article-detail footer  a{
+    color: #0D0578;
+    font-size: 16px;
+    line-height: 28px;
+}
 /**/
 @media (max-width: 768px){
     #input-name{width: 100%;}
+    .index-tabs .tab-content{
+        height: auto;}
 }
