@@ -14,6 +14,9 @@ body {
     line-height: 26px;
     color: #ffffff;
 }
+h1,h2,h3,h5,h4{
+    font-weight: normal;
+}
 a{color: #fff;}
 a:hover{color: #ffffff;text-decoration: underline;}
 th,td{text-align: center;}
@@ -102,6 +105,8 @@ p,body,ul,li,ol,dl,dt,dd{
     text-overflow:ellipsis;
     white-space:nowrap;
 }
+.pb10{
+    padding-bottom: 10px;}
 /*themes css*/
 .page-navigation{text-align:center;
     padding-top: 20px;}
@@ -190,6 +195,12 @@ p,body,ul,li,ol,dl,dt,dd{
    /* .container {
         width: 1060px;
     }*/
+    .content>.row>.col-sm-4{
+        width: 30%;
+    }
+    .content>.row>.col-sm-8{
+        width: 70%;
+    }
 }
 @media (max-width: 768px){
     #navbar span{display: none;}

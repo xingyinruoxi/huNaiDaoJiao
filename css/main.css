@@ -1,19 +1,76 @@
 @charset "utf-8";
 /*首页样式*/
+.zuzhi{border:2px solid #ffffff;
+    padding: 10px 20px;}
+.zuzhi h5{
+    font-weight: normal;
+    font-size: 22px;
+    padding-bottom: 20px;
+    line-height: 30px;}
+.zuzhi ul{
+    padding-bottom: 80px;}
+.zuzhi li{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: normal;
+}
 .list-low li a{
     font-size: 16px;
     line-height: 34px;
     font-weight: normal;
+
 }
 .huizhang{
     width:302px;
     float: right;
 }
+
 .huizhang dd{
     padding-top: 14px;
     font-size: 15px;
     line-height: 28px;;
 }
+.scroll-img{
+    position: relative;
+    width: 369px;
+    height: 260px;}
+.scroll-img li{
+    position: absolute;
+    left: 0;
+    top:0;
+    display: none;
+}
+.scroll-img .des{
+    height: 32px;
+    position: absolute;
+    line-height: 32px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    text-indent: 15px;
+}
+.scroll-img nav{background: rgba(0,0,0,.4);
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+    padding-right: 10px;
+width: 100%;}
+.scroll-img nav a{
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 4px;
+    background:#848484;
+}
+.scroll-img nav a.active{background: #ff9700;}
 .dl-custom dt .link{
     position: relative;
     top: 2px;
@@ -77,6 +134,13 @@ color: #CECECE;}
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: normal;
+}
+#aside .dl-custom .title{
+    background-image: url("../img/bg/bg-title1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 18px;
+    text-indent: 50px;
 }
 .aside-nav a.active{background: #A78275;color: #ffffff;}
 .aside-nav a:hover{text-decoration: none;background: #A78275;color: #ffffff;}
@@ -187,7 +251,42 @@ color: #000000;
     font-size: 16px;
     line-height: 28px;
 }
-/**/
+/*新闻动态*/
+.dl-news{
+    background: #b78c7b;
+    padding: 20px;
+    box-shadow: 0 6px 40px rgba(48,32,32,0.5);
+    margin-bottom: 20px;
+}
+.color-gray{
+    color: #B5B5B6;
+}
+.color-gray:hover{
+   text-decoration: underline;
+}
+.list-news li{
+    white-space: normal;
+    margin: 15px 0;
+}
+.list-news .item-img{display:inline-block; float: left;
+   }
+.list-news .item-inner{
+   display: inline-block;
+    float: right;
+    width:calc( 100% - 142px );
+}
+.list-news .item-inner p{
+    font-size: 16px;
+    line-height: 26px;}
+.list-news .color-yellow{
+    font-size: 21px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+/*适配*/
 @media (max-width: 768px){
     #input-name{width: 100%;}
     .index-tabs .tab-content{
