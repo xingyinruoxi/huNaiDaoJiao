@@ -141,6 +141,8 @@ p,body,ul,li,ol,dl,dt,dd{
     border: none;
     margin-bottom: 0;
 }
+.navbar-custom .navbar-nav{list-style: none;}
+.navbar-custom .navbar-nav li{list-style: none;}
 .navbar-custom  .icon-bar{background: #ffffff;}
 .navbar-custom .navbar-nav>li>a{
     padding: 8px 0;}
@@ -209,5 +211,7 @@ p,body,ul,li,ol,dl,dt,dd{
         margin-top: 0;}
     .navbar-custom .navbar-nav>li>a{
         padding: 8px 15px;}
+time{display: none}
+.banner{display: none;}
 
 }

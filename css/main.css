@@ -13,6 +13,7 @@
     font-size: 14px;
     line-height: 28px;
     font-weight: normal;
+    white-space: normal;
 }
 .list-low li a{
     font-size: 16px;
@@ -291,4 +292,5 @@ color: #000000;
     #input-name{width: 100%;}
     .index-tabs .tab-content{
         height: auto;}
+    .dl-custom dt .link{background: red;display: none;}
 }
