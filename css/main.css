@@ -412,14 +412,20 @@
     display: inline-block;
     margin: 0 20px;
 }
-
+/*.article2 .img-wrap{
+    width: 120px;
+    float: left;
+}
+.article2 .img-wrap ~ .col-sm-8{
+    !*width:calc( 100% - 120px );*!
+}*/
 /*适配*/
 @media (max-width: 768px) {
     #input-name {
         width: 100%;
     }
 
-    #marquee {
+    #marquee, .article-author, .article-time {
         display: none;
     }
 
@@ -432,7 +438,11 @@
         display: none;
     }
 
-    .huizhang {
+    span.pull-left.article-source {
+        display: block;
+        width: 100%;
+    }
+    .huizhang,.scroll-img img,.scroll-img {
         width: 100%;
     }
 }

@@ -48,7 +48,26 @@ p, body, ul, li, ol, dl, dt, dd {
     margin: 0;
     padding: 0;
 }
-
+.navbar-nav>li{
+    position: relative;
+}
+.navbar-nav>li:hover ol{
+    display: block;
+}
+.navbar-nav ol{
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #ceaea1;
+    line-height: 34px;
+}
+.navbar-nav ol li:hover{
+    background: #c3a79b;
+}
+.navbar-nav ol li a:hover{
+    text-decoration: none;
+}
 .breadcrumb {
     background: none;
     margin-bottom: 10px;
@@ -182,8 +201,13 @@ p, body, ul, li, ol, dl, dt, dd {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    position: relative;
 }
-
+.list-unstyled li time.pull-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 .pb10 {
     padding-bottom: 10px;
 }
@@ -338,6 +362,10 @@ p, body, ul, li, ol, dl, dt, dd {
 }
 
 @media (max-width: 768px) {
+    .navbar-nav ol{
+        position: relative;
+        padding-left: 20px;
+    }
     #navbar span {
         display: none;
     }
